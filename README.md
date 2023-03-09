@@ -1,38 +1,70 @@
-Component Architecture diagram:
-![image](https://user-images.githubusercontent.com/92960836/224037487-26d703b1-1b22-4011-b1aa-fe1bbd54bdf3.png)
+# Getting Started with Create React App
 
-output:
-1. on page load:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![image](https://user-images.githubusercontent.com/92960836/224037716-2576af39-de8b-4ea4-bae4-d830d88c5f4a.png)
+## Available Scripts
 
-2. add todos:
+In the project directory, you can run:
 
-![image](https://user-images.githubusercontent.com/92960836/224038080-45d440d7-14c0-41aa-95c4-a8318db56104.png)
+### `npm start`
 
-3. reset add form:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-![image](https://user-images.githubusercontent.com/92960836/224038211-53751a51-d068-485d-a8f7-88b179cca50f.png)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-4. delete todo 4:
+### `npm test`
 
-![image](https://user-images.githubusercontent.com/92960836/224038391-e15df261-b0df-425e-979b-151d9b418b71.png)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-5. add todo after deleting todo 4: id added accordingly:
+### `npm run build`
 
-![image](https://user-images.githubusercontent.com/92960836/224038805-e127e9f2-fff3-48ba-ba59-f96d09263bc6.png)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-6. edit todo 3: edit form displays
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-![image](https://user-images.githubusercontent.com/92960836/224038989-8a192aed-1c09-4b49-b26a-8c0b7b059399.png)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-7. update todo 3:
+### `npm run eject`
 
-![image](https://user-images.githubusercontent.com/92960836/224039352-644d330a-7a28-405b-9701-03089ede9022.png)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Learn More
 
-# useReducer-useContext-CRUD-Todos
-useReducer useContext CRUD Todos
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
